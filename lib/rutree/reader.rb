@@ -11,7 +11,7 @@ module Rutree
     end
 
     def self.all_ruby_files(path)
-      Dir["#{path}**/*.rb"]
+      Dir["#{path}/**/*.rb"]
     end
   end
 end
